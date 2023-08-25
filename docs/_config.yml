@@ -1,0 +1,22 @@
+title: "Jupyter Book Example"
+logo: static/logo/logo.png
+author: "QbQi (aloha@qbqi.dev)"
+copyright: "2023"
+email: aloha@qbqi.dev
+description: >-
+  Jupyter Book Example
+
+execute:
+  execute_notebooks: cache
+  allow_errors: true
+  timeout: 120
+
+html:
+  favicon: static/logo/logo.ico
+  home_page_in_navbar: false
+  use_repository_button: true
+
+repository:
+  url: https://github.com/QbQi/jupyter-book-example
+  branch: main
+  path_to_book: docs

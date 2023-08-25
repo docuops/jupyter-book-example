@@ -1,0 +1,13 @@
+format: jb-book
+
+root: index
+
+parts:
+- caption: Documents
+  chapters:
+  - file: markdown/index
+    sections:
+    - file: markdown/example
+  - file: jupyter/index
+    sections:
+    - file: jupyter/example

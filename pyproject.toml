@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "jupyter-book-example"
+version = "0.1.0"
+description = "jupyter book example"
+authors = ["QbQi <aloha@qbqi.dev>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.4"
+jupyterlab = "4.0.5"
+
+[tool.poetry.group.book.dependencies]
+jupyter-book = "0.15.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
